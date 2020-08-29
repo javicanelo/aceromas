@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    color: #333333;
+}
+.bg-amarillo {
+    background-color: #F18008;
+    height: 5vh;
+}
+
+section a {
+    font-size: 12px;
+}
+
+
+nav ul li a {
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+header {
+    background-image: url(../img/slide_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 50vh;
+}
+
+.energia{
+    background-image: url(../img/slide_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.estructuras-metalicas {
+    background-image: url(../img/banner_estructurasmetalicas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.servicios-especiales {
+    background-image: url(../img/banner_serviciosespeciales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.anclajes-fabricacion {
+    background-image: url(../img/banner_anclajes_fabricacion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.fabricacion-insertos {
+    background-image: url(../img/banner_fabricacion_insertos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.greating {
+    background-image: url(../img/banner_greating.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.piping {
+    background-image: url(../img/banner_soportes-bridas_piping.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.servicios-sujecion {
+    background-image: url(../img/banner_servicios_sujecion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 30vh;
+}
+
+.linea {
+    height: 2px;
+    width: 70px;
+    background-color: #F18008;
+}
+
+.linea-in {
+    height: 2px;
+    width: 70px;
+    background-color: #ffffff;
+}
+
+
+.btn-estilo {
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #333333;
+}
+
+.bg-textura {
+    background-image: url(../img/bg-textura.jpg);
+}
+
+.bg-textura-in {
+    background-image: url(../img/bg-textura_in.jpg);
+}
+
+.icon {
+    background-image: url(../img/iconos/iso-inicio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#borde {
+    border: solid 3px #F18008
+}
+
+.foto {
+    width: 500px;
+}
+
+.bg-amarillo-footer {
+    background-color: #F18008;
+}
+
+
+
+@media (max-width: 575.98px) {
+
+    .bg-amarillo {
+        height: 15vh;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .bg-amarillo {
+        height: 10vh;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .bg-amarillo {
+        height: 10vh;
+        text-align: center;
+    }
+
+ }
