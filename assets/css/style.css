@@ -209,6 +209,93 @@ header {
     transform: scale(1);
 }
 
+.container-grid {
+    display: grid;
+    height: 150vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,5fr);
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img4 img5 img6"
+    "img7 img8 img9"
+    "img10 img11 img12"
+    "img13 img14 img15"
+    "img16 img17 img18"
+    ;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.img:hover{
+    filter: opacity(50%);
+    cursor: pointer;
+    transition: filter .5s;
+}
+
+.img-1 {
+    grid-area: img1;
+}
+
+.img-2 {
+    grid-area: img2;
+}
+.img-3 {
+    grid-area: img3;
+}
+.img-4 {
+    grid-area: img4;
+}
+.img-5 {
+    grid-area: img5;
+}
+.img-6 {
+    grid-area: img6;
+}
+
+.container-img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .4s ease-in;
+}
+
+.move{
+    transform: translateX(0);
+}
+
+.fas.fa-times{
+    position: absolute;
+    color: #ffffff;
+    top: 20px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.img-show{
+    height: 80%;
+    transform: scale(0);
+    display: block;
+    object-fit: cover;
+    transition: transform .2s .4s;
+}
+
+.show{
+    transform: scale(1);
+}
 
 @media (max-width: 575.98px) {
 
