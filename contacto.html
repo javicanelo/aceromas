@@ -78,40 +78,42 @@
                     <hr class="linea inline-block">
                 </div>
                 <div class="col-12 py-5">
-                    <!-- Inicio Formulario -->
+
+                    
+        <!-- Inicio Formulario -->
           <form class="container py-4" action="contacto.php" method="post">
             <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
-            <label >Nombre y Apellido</label>
-            <input type="text" class="form-control rounded" name="t1"  required/>
+            <label for="formGroupExampleInput">Nombre y Apellido</label>
+            <input type="text" class="form-control" name="nombre" required>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
-              <label >Empresa</label>
-              <input type="text" class="form-control rounded" name="t2"  required/>
+            <label for="formGroupExampleInput">Empresa</label>
+            <input type="text" class="form-control" name="empresa" required>
             </div>
           </div> 
           <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
-                <label >Asunto</label>
-                <input type="text" class="form-control rounded" name="t3"  required/>
+                <label for="formGroupExampleInput">Asunto</label>
+            <input type="text" class="form-control" name="asunto" required>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
-                  <label >Teléfono</label>
-                  <input type="text" class="form-control rounded" name="t4" placeholder="+569 0000 0000" required/>
+                <label for="formGroupExampleInput">Teléfono</label>
+                  <input type="text" class="form-control rounded" name="telefono" placeholder="+569 0000 0000" required/>
                 </div>
           </div>
           <div class="row">
           <div class="col-sm-12 py-2">
-            <label >Email</label>
-            <input type="text" class="form-control rounded" name="t5"  placeholder="nombre@ejemplo.com" required/> 
+            <label for="formGroupExampleInput">Email</label>
+            <input type="text" class="form-control rounded" name="email"  placeholder="nombre@ejemplo.com" required/> 
           </div>
       </div> 
           <div class="py-2">
-            <label >Escriba su mensaje</label>
-            <textarea class="form-control rounded" name="t6" class="texto" cols="50" rows="5" required></textarea> 
+            <label for="exampleFormControlTextarea1" class="pb-2">Escriba su mensaje</label>
+            <textarea class="form-control rounded" name="mensaje" class="texto" cols="50" rows="5" required></textarea> 
           </div> 
           <div class="py-2">
-            <button type="submit" name="enviar" class="btn btn-dark">Enviar</button>
+            <button type="submit" class="btn-sm btn-dark px-3" name="enviar">Enviar</button>
           </div>
           </form>
           <!-- Fin Formulario -->

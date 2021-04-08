@@ -206,37 +206,43 @@
                     <hr class="linea inline-block">
                 </div>
                 <div class="col-12 py-5">
-                    <form>
-                        <div class="row">
-                            <div class="col py-2">
-                              <input type="text" class="form-control" placeholder="Nombre y Apellido">
-                            </div>
-                            <div class="col py-2">
-                              <input type="text" class="form-control" placeholder="Empresa">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col py-2">
-                              <input type="text" class="form-control" placeholder="Asunto">
-                            </div>
-                            <div class="col py-2">
-                              <input type="text" class="form-control" placeholder="Teléfono">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col py-2">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col py-2">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje aquí..."></textarea>
-                            </div>
-                          </div>
-                          <div class="contact-form-submit topmargin_30">
-                            <button type="button" id="contact_form_submit" name="contact_submit" class="btn btn-outline-secondary btn-sm px-4 py-2 btn-estilo text-white">Enviar</button>
-                        </div>
-                    </form>
+        <!-- Inicio Formulario -->
+          <form class="container py-4 text-left" action="contacto.php" method="post">
+            <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+            <label for="formGroupExampleInput">Nombre y Apellido</label>
+            <input type="text" class="form-control" name="nombre" required>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+            <label for="formGroupExampleInput">Empresa</label>
+            <input type="text" class="form-control" name="empresa" required>
+            </div>
+          </div> 
+          <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+                <label for="formGroupExampleInput">Asunto</label>
+            <input type="text" class="form-control" name="asunto" required>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+                <label for="formGroupExampleInput">Teléfono</label>
+                  <input type="text" class="form-control rounded" name="telefono" placeholder="+569 0000 0000" required/>
+                </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-12 py-2">
+            <label for="formGroupExampleInput">Email</label>
+            <input type="text" class="form-control rounded" name="email"  placeholder="nombre@ejemplo.com" required/> 
+          </div>
+      </div> 
+          <div class="py-2">
+            <label for="exampleFormControlTextarea1" class="pb-2">Escriba su mensaje</label>
+            <textarea class="form-control rounded" name="mensaje" class="texto" cols="50" rows="5" required></textarea> 
+          </div> 
+          <div class="py-2">
+            <button type="submit" class="btn-sm btn-dark px-3" name="enviar">Enviar</button>
+          </div>
+          </form>
+          <!-- Fin Formulario -->
                 </div>    
             </div>
         </section>
