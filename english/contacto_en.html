@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aceromas · Maestranza · Contacto</title>
+    <meta name="author" content="Inv. Collins & Collins Ltda">
+    <meta name="description" content="Maestranza proveedora de servicios de fabricación para el mercado nacional e internacional" >
+    <meta name="keywords" content="maestranza, servicios de fabricación, infraestructuras de energia, estructuras metálicas">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+
+</head>
+<body>
+
+    <!-- Comienzo barra de datos -->
+    <section class="container-fluid text-white bg-amarillo">
+        <div class="container text-right pt-1">   
+                <i class="fas fa-map-marker-alt fa-xs mr-2"></i><a class="mr-3">San Eugenio 12412 · San Bernardo · Santiago de Chile</a>
+                <i class="fas fa-phone-alt fa-xs mr-2"></i><a class="mr-3">+562 2 2565 1150</a>
+                <i class="fas fa-envelope fa-xs mr-2"></i><a class="mr-3">ventas@aceromas.cl</a>
+                <a href="english/index_english.html" class="mx-1"><img src="assets/img/eeuu.png"></a>
+                <a href="brasil/index_brasil.html" class="mx-1"><img src="assets/img/brasil.png"></a>
+                <a href="index.html" class="mx-1"><img src="assets/img/chile.png"></a>
+            </div>
+    </section>
+
+    <!-- Fin barra de datos -->
+
+    <!-- Inicio Menú -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container navbar">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo_aceromas.png" alt="logo-aceromas"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+      <!-- Fin Menú -->
+
+      <!-- Comienzo Header -->
+      <header class="hero pt-4 energia">
+        <div class="container text-center text-white pt-5">
+            <h1 class="pt-5">CONTACTO</h1>
+        </div>
+      </header>
+      <!-- Fin Header -->
+        
+        <!-- Comienzo Contacto -->
+        <section class="container my-3 py-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>¿TIENES UN PROYECTO?</h2>
+                    <h5>QUEREMOS ESCUCHARTE</h5>
+                    <hr class="linea inline-block">
+                </div>
+                <div class="col-12 py-5">
+
+
+        <!-- Inicio Formulario -->
+          <form class="container py-4" action="contacto.php" method="post">
+            <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+            <label for="formGroupExampleInput">Nombre y Apellido</label>
+            <input type="text" class="form-control" name="nombre" required>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+            <label for="formGroupExampleInput">Empresa</label>
+            <input type="text" class="form-control" name="empresa" required>
+            </div>
+          </div> 
+          <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+                <label for="formGroupExampleInput">Asunto</label>
+            <input type="text" class="form-control" name="asunto" required>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-cl-6 py-2">
+                <label for="formGroupExampleInput">Teléfono</label>
+                  <input type="text" class="form-control rounded" name="telefono" placeholder="+569 0000 0000" required/>
+                </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-12 py-2">
+            <label for="formGroupExampleInput">Email</label>
+            <input type="text" class="form-control rounded" name="email"  placeholder="nombre@ejemplo.com" required/> 
+          </div>
+      </div> 
+          <div class="py-2">
+            <label for="exampleFormControlTextarea1" class="pb-2">Escriba su mensaje</label>
+            <textarea class="form-control rounded" name="mensaje" class="texto" cols="50" rows="5" required></textarea> 
+          </div> 
+          <div class="py-2">
+            <button type="submit" class="btn-sm btn-dark px-3" name="enviar">Enviar</button>
+          </div>
+          </form>
+          <!-- Fin Formulario -->
+
+                    
+                </div>    
+            </div>
+        </section>
+        <!-- Fin Contacto -->
+
+        <!-- Comienzo datos -->
+        <section class="py-3 pb-5">
+            <div class="container">
+                <h2 class="py-3">NUESTROS DATOS</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <h5 class="mr-3"><i class="fas fa-map-marker-alt fa-md mr-2"></i>San Eugenio 12412 · San Bernardo · Santiago de Chile</h5>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                        <h5 class="mr-3"><i class="fas fa-phone-alt fa-xs mr-2"></i>+562 2 2565 1150</h5>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                        <h5 class="mr-3"><i class="fas fa-envelope fa-xs mr-2"></i>ventas@aceromas.cl</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin datos -->
+
+          <!-- Comienzo Mapa -->
+          <section>
+            <div class="contact-map" id="map-canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.687030119804!2d-70.72283738523133!3d-33.56150698074224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dc74456ce319%3A0xd192e2980a5ba11b!2sSan%20Eugenio%2012412%2C%20San%20Bernardo%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1587050351154!5m2!1ses-419!2scl" width="1920" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        </section>
+        <!-- Fin Mapa -->
+
+
+
+    </main>
+
+        <!-- Comienzo Footer -->
+        <footer class="container-fluid bg-amarillo-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 pt-3 pb-5">
+                        <h5 class="text-white">Una empresa de:</h5>
+                        <a href="http://www.grupocollins.cl" target="_blank"><img src="assets/img/logo-bottom.png" alt="logo-aceromas"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-white py-3">UBICACIÓN</h5>
+                        <p class="text-white"><i class="fas fa-map-marker-alt fa-lg mr-2"></i>Av. San Eugenio 12412 · San Bernardo</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-white py-3">CONTACTO</h5>
+                        <p class="text-white"><i class="fas fa-phone-alt fa-lg mr-2"></i>+562 2 2565 1150</p>
+                        <p class="text-white"> <i class="fas fa-envelope fa-lg mr-2"></i>ventas@aceromas.cl</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Fin Footer -->
+      
+    
+    <!-- jQuery 3.5.1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper 1.16.0 -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap js 4.5.0 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Mi Script -->
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
